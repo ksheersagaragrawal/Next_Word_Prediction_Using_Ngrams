@@ -6,7 +6,7 @@ import gradio.inputs
 
 import pickle
 from final_maybe import LanguageModel
-with open('model.sav','rb') as handle:
+with open('without_laplace.sav','rb') as handle:
     loaded_model = pickle.load(handle)
 def fn(X_test):
     
