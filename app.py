@@ -10,13 +10,14 @@ with open('without_laplace.sav','rb') as handle:
     loaded_model = pickle.load(handle)
 def fn(X_test):
     
-
-    X_final = tuple(map(str, X_test.split(' ')))
+    
+    X_final_list = list(map(str, X_test.split(' ')))
+    X_final=tuple(X_final_list[-2:])
     model = loaded_model
     result = model._best_candidate(X_final,0)
     
     return result
-description = "Give two words as input and our model will predict the next word"
+description = "Here is an interface for next word prediction using tri-gram model. Given an input, our model will predict the next word. Please make sure not to add a space after the last word."
 here = gr.Interface(fn=fn,
                      inputs= gradio.inputs.Textbox( lines=1, placeholder=None, default="", label=None),
                      outputs='text',
