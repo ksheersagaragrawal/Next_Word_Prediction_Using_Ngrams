@@ -25,8 +25,8 @@ here = gr.Interface(fn=fn,
                      theme="default",
                      allow_flagging="auto",
                      flagging_dir='flagging records')
-#here.launch(inline=False, share = True)
-if __name__ == "__main__":
-    app, local_url, share_url = here.launch(share=True)
+here.launch(inline=False,share=False)
+# if __name__ == "__main__":
+#     app, local_url, share_url = here.launch()
 
 
