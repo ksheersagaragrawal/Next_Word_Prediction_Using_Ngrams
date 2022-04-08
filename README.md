@@ -9,4 +9,4 @@ app_file: app.py
 pinned: false
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces#reference
+Check out the Space at https://huggingface.co/spaces/Shruhrid/Next_Word_Prediction
