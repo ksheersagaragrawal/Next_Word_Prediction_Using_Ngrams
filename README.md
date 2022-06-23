@@ -8,6 +8,7 @@ sdk_version: 2.9.1
 app_file: app.py
 pinned: false
 ---
+Check out the Space at https://huggingface.co/spaces/Shruhrid/Next_Word_Prediction
 
 # Probabilistic approach to Next Word Prediction #
 The task of predicting the next word using an n-gram model is equivalent to the
@@ -34,4 +35,4 @@ For a bigram approach:
 
 Being confused ain't as bad as you may think! Perplexity is a measure of how certain the model was while making the predictions. It is the inverse of the probability of predicting the test set normalized by the number of words.
 
-Check out the Space at https://huggingface.co/spaces/Shruhrid/Next_Word_Prediction
+
