@@ -18,7 +18,7 @@ probability of the same is given by the Bayesformula,P(w |w₁,.....,w ₋₁)
 # Key Aspects #
 
 ### Laplace Smoothing ###
-Laplace smoothing is a technique that helps when the dataset remains limited for a plrobabilistic approach. Essentially it helps to avoid the problem of zero probability.
+Laplace smoothing is a technique that helps when the dataset remains limited for a probabilistic approach. Essentially it helps to avoid the problem of zero probability.
 For a bigram approach:
 
 ![image](https://user-images.githubusercontent.com/76119205/175379976-33345bac-83fc-42dd-bed0-8090ebbe1296.png)
